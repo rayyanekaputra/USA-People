@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="?colorSurface"
+    app:cardElevation="4dp"
+    android:focusable="true"
+    android:layout_margin="30dp"
+    app:cardCornerRadius="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTahun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/bevietnambold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgGuideLine"
+            app:layout_constraintTop_toTopOf="@+id/imgGuideLine"
+            android:textSize="36sp"
+            tools:text="2019" />
+
+        <TextView
+            android:id="@+id/tvPopulasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="089"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="24dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</com.google.android.material.card.MaterialCardView>
